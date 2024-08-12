@@ -1,5 +1,5 @@
 import Handlebars from 'handlebars';
-import './list-chatmy.css';
+import './list-chatmy.less';
 
 export {default as ListChatmy} from './list-chatmy.hbs?raw';
 
