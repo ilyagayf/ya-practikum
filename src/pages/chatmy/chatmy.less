@@ -1,14 +1,18 @@
 @import '../../css/color.less';
+@import '../../css/form-features.less';
 
   .button_id_submit {
     border-radius: 50%;
     height: 38px;
     width: 38px;
-    color: grey;
+    // color: grey;
+    color: @form-color-second;
+        
   }
   
   .button_id_submit .fa-paper-plane {
-    color: grey;
+    // color: grey;
+    color: @form-color-second;
     transition: color ease 0.2s;
   }
   
@@ -20,12 +24,14 @@
   /* Icons from Fotnt Awesome */
   
   .search__icon .fa-search {
-    color: grey;
+    // color: grey;
+    color: @form-color-second;
     font-size: 18px;
   }
   
   .search__icon .fa-pencil-square-o {
-    color: grey;
+    // color: grey;
+    color: @form-color-second;
     font-size: 18px;
   }
   
@@ -135,6 +141,7 @@
     display: flex;
     background-color: white;
     box-shadow: 0 0 32px rgba(0, 1, 3, 0.15);
+    .form_element_style;
   }
   
   .chat__search {
@@ -364,12 +371,14 @@
   
   .enter__icons .fa-paperclip {
     font-size: 16px;
-    color: grey;
+    // color: grey;
+    color: @form-color-second;
   }
   
   .enter__icons .fa-smile-o {
     font-size: 16px;
-    color: grey;
+    // color: grey;
+    color: @form-color-second;
   }
   
   .enter__icon {

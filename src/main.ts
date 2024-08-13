@@ -7,6 +7,7 @@ const pages = {
   'nav': [Pages.NavigatePage],
   'signup': [Pages.SignupPage],
   'chatmy': [Pages.ChatMy],
+  're-data': [Pages.ReData],
   'page404': [Pages.Page404],
   'page500': [Pages.Page500],
 }
