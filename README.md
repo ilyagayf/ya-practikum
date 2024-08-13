@@ -11,6 +11,8 @@ login (Вход)  https://polite-pixie-9b095f.netlify.app/
 
 signup(Регистрация)  https://polite-pixie-9b095f.netlify.app/
 
+re-data (Редактирование данных профиля) https://polite-pixie-9b095f.netlify.app/
+
 Мой чат (Список пользователей и переписка с ними)  https://polite-pixie-9b095f.netlify.app/
 
 404  https://polite-pixie-9b095f.netlify.app/
