@@ -1,0 +1,21 @@
+<div class="container">
+    <form class="signup-form">
+        <div class="head__card">
+            <div class="users__avatar avatar">
+                <a href="#" class="avatar__wrap">
+                    В</a>
+            </div>
+        </div>
+
+        {{>Input label = "Почта" name = "email"}}
+        {{>Input label = "Логин" name = "login"}}
+        {{>Input label = "Имя" name = "first_name"}}
+        {{>Input label = "Фамилия" name = "second_name"}}
+        {{>Input label = "Имя в чате" name = "display_name"}}
+        {{>Input label = "Пароль" name = "password" type = "password"}}
+        {{>Input label = "Пароль (еще раз)" name = "password again" type = "password"}}
+        {{>Button label = "Сохранить" name = "Sign up" type = "form_active"}}
+        {{test}}
+    </form>
+
+</div>
